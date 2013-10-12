@@ -26,9 +26,9 @@
 		7F3F3E6E16F7393700B3DE60 /* TwitterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E6C16F7393600B3DE60 /* TwitterVC.m */; };
 		7F3F3E7116F7394600B3DE60 /* FacebookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E7016F7394600B3DE60 /* FacebookVC.m */; };
 		7F3F3E7216F7394600B3DE60 /* FacebookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E7016F7394600B3DE60 /* FacebookVC.m */; };
-		7F3F3E7B16F7405700B3DE60 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E7816F7405600B3DE60 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		7F3F3E7B16F7405700B3DE60 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E7816F7405600B3DE60 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7F3F3E7C16F7405700B3DE60 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E7816F7405600B3DE60 /* Reachability.m */; };
-		7F3F3E7D16F7405700B3DE60 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E7A16F7405600B3DE60 /* ReachabilityAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
+		7F3F3E7D16F7405700B3DE60 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E7A16F7405600B3DE60 /* ReachabilityAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7F3F3E7E16F7405700B3DE60 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F3E7A16F7405600B3DE60 /* ReachabilityAppDelegate.m */; };
 		7F46B3A616F0435400FF2E38 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F46B3A516F0435400FF2E38 /* AVFoundation.framework */; };
 		7F46B3A916F0436F00FF2E38 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F46B3A816F0436F00FF2E38 /* CoreMedia.framework */; };

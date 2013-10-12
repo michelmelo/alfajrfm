@@ -10,30 +10,42 @@
 
 @implementation AppDelegate
 
-
-
-- (void)applicationDidFinishLaunching:(UIApplication *)application {
-	
-    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	// Let the device know we want to receive push notifications
+	[[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+     (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
     
-    if([ud objectForKey:@"use3G"] == nil) {
+    
+    
+
         
-        [ud setBool:YES forKey:@"use3G"];
-        
-        [ud setBool:YES forKey:@"streamingHighQuality"];
-      
-        [ud setBool:YES forKey:@"alwaysUseLowQualityWhenOn3G"];
-        
-        DLog(@"first time");
-        
-        [ud synchronize];
-        
+    return YES;
+    
     }
+
+
+//- (void)applicationDidFinishLaunching:(UIApplication *)application {
+	
+//    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    
+//    if([ud objectForKey:@"use3G"] == nil) {
+        
+//        [ud setBool:YES forKey:@"use3G"];
+        
+//        [ud setBool:YES forKey:@"streamingHighQuality"];
+      
+//        [ud setBool:YES forKey:@"alwaysUseLowQualityWhenOn3G"];
+        
+//        DLog(@"first time");
+        
+//        [ud synchronize];
+        
+//    }
         
     
-	[_window makeKeyAndVisible];
+//	[_window makeKeyAndVisible];
 
-}
+// }
 
 
 
